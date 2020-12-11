@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Righteous', cursive;
+}
+body{
+    background-image: url("img/nguyen-dang-hoang-nhu-qVcRl2f1TC8-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container__general{
+    width: 80%;
+    height: 800px;
+    margin: 100px auto;
+    
+
+}
+.h2{
+    width: 100%;
+    height: 76px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ h2{
+    font-size: 30px;
+    color: white;
+}
+
+#container__general #container__form{
+    width: 50%;
+    height: 770px;
+    margin:  100px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+    background: #000;
+    opacity: 0.9;
+    border: 1px solid black;
+    border-radius:8px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#container__form input {
+    width: 70%;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    outline: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 8px #000 inset;
+}
+
+#container__form .form__icon i {
+    font-size: 80px;
+    color: #fff;
+}
+
+
+#container__form .button{
+    display: block;
+    position: relative;
+    top:0;
+    right: 105%;
+    width: 300%;
+    height: 60px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    outline: none;
+    border: none;
+    opacity: 0.7;
+    cursor: pointer;
+    background: #f2f2f2;
+    color:#000;
+    outline: none;
+    box-shadow: 0px 0px 19px rgb(61, 57, 57);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    border: none;
+}
+
+#container__form .button:hover{
+    transform: scaleY(1.2);
+    -webkit-transform: scaleY(1.2);
+    -moz-transform: scaleY(1.2);
+    -ms-transform: scaleY(1.2);
+    -o-transform: scaleY(1.2);
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    color: #000;
+    background: #ddd;
+}
+@media (max-width:1400px){
+    #container__general #container__form{
+        width: 100%;
+        padding: 20px;
+        padding-bottom: 60px;
+    }
+    #container__form{
+        width: 100%;
+    }
+}
+
+@media (max-width:800px){
+    #container__general #container__form{
+        width: 90%;
+        padding: 10px;
+    }
+    #container__form input{
+        width: 97%;
+    }
+    
+}
+
+@media (max-width:500px){
+    #container__general #container__form{
+        width: 80%;
+        padding: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+       
+    }
+   
+    #container__form input{
+        width: 90%;
+    }
+}
+
+@media (max-width:375px){
+    #container__general #container__form{
+        width: 100%;
+    }
+    #container__form input{
+        width: 90%;
+    }
+}
